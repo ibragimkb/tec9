@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  alpine:
+    image: ibrajim/c5555895-1c54-4d4a-bb6f-4e3b813ecb23:1.0.0
+    container_name: tec9
+    ports:
+    - '9595:8080'
+    volumes:
+    - ${PWD}/plugins:/home/ibm/plugins
+
